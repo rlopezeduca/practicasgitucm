@@ -70,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#practica-32-crear-repositorio-remoto-y-borrar" class="md-skip">
+        <a href="#practica-32-clonar-repositorio-remoto" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -451,15 +451,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#mostrar-historial-del-repositorio-local" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mostrar historial del repositorio local
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#crear-repositorio-remoto" class="md-nav__link">
     <span class="md-ellipsis">
       Crear repositorio remoto
@@ -469,9 +460,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#enlazar-tu-repositorio-local-con-tu-repositorio-remoto" class="md-nav__link">
+  <a href="#clonar-tu-repositorio-remoto" class="md-nav__link">
     <span class="md-ellipsis">
-      Enlazar tu repositorio local con tu repositorio remoto
+      Clonar tu repositorio remoto
     </span>
   </a>
   
@@ -483,30 +474,6 @@
       Envíar cambios al repositorio remoto
     </span>
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mostrar-el-historial-del-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mostrar el historial del repositorio remoto
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Mostrar el historial del repositorio remoto">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#borrar-los-repositorios" class="md-nav__link">
-    <span class="md-ellipsis">
-      Borrar los repositorios
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -941,15 +908,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#mostrar-historial-del-repositorio-local" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mostrar historial del repositorio local
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#crear-repositorio-remoto" class="md-nav__link">
     <span class="md-ellipsis">
       Crear repositorio remoto
@@ -959,9 +917,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#enlazar-tu-repositorio-local-con-tu-repositorio-remoto" class="md-nav__link">
+  <a href="#clonar-tu-repositorio-remoto" class="md-nav__link">
     <span class="md-ellipsis">
-      Enlazar tu repositorio local con tu repositorio remoto
+      Clonar tu repositorio remoto
     </span>
   </a>
   
@@ -973,30 +931,6 @@
       Envíar cambios al repositorio remoto
     </span>
   </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mostrar-el-historial-del-repositorio-remoto" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mostrar el historial del repositorio remoto
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Mostrar el historial del repositorio remoto">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#borrar-los-repositorios" class="md-nav__link">
-    <span class="md-ellipsis">
-      Borrar los repositorios
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1016,39 +950,36 @@
 
 
 
-<h1 id="practica-32-crear-repositorio-remoto-y-borrar">Práctica 3.2 - Crear repositorio remoto y borrar</h1>
+<h1 id="practica-32-clonar-repositorio-remoto">Práctica 3.2 - Clonar repositorio remoto</h1>
 <p>Para la realización de esta práctica tendrás que seguir los siguientes pasos:</p>
-<h3 id="mostrar-historial-del-repositorio-local">Mostrar historial del repositorio local</h3>
-<ol>
-<li>Abre la aplicación Git Bash</li>
-<li>Entra en la carpeta de tu repositorio local "repo2<tunombre>"</li>
-<li>Muestra el historial de tu repositorio</li>
-</ol>
 <h3 id="crear-repositorio-remoto">Crear repositorio remoto</h3>
-<ol start="4">
-<li>Crea un nuevo repositorio en GitHub llamado "repo2<tunombre>"</li>
+<ol>
+<li>Crea un nuevo repositorio en GitHub llamado <strong>"repo4<tunombre>"</strong><br />
+<strong>Marca el check Add README</strong></li>
+<li>Edita el fichero README.md y escribe algún mensaje</li>
+<li>Realiza un commit de los cambios</li>
 <li>Copia la URL de tu nuevo repositorio remoto</li>
 </ol>
-<h3 id="enlazar-tu-repositorio-local-con-tu-repositorio-remoto">Enlazar tu repositorio local con tu repositorio remoto</h3>
-<ol start="6">
-<li>Desde Git Bash entra en la carpeta de tu repositorio local "repo2<tunombre>"</li>
-<li>Enlaza tu repositorio local con el remoto utilizando su URL</li>
+<h3 id="clonar-tu-repositorio-remoto">Clonar tu repositorio remoto</h3>
+<ol start="5">
+<li>Abre la aplicación Git Bash</li>
+<li>Entra en la carpeta donde almacenas tus repositorios</li>
+<li>Clona tu repositorio remoto utilizando su URL</li>
+<li>Entra en la carpeta de tu nuevo repositorio "repo4<tunombre>"</li>
+<li>Comprueba que puedes ver el archivo README.md<br />
+<code>ls</code></li>
+<li>Muestra el contenido de dicho archivo<br />
+<code>cat &lt;nombre_archivo&gt;</code></li>
+<li>Muestra el historial de tu repositorio</li>
 </ol>
 <h3 id="enviar-cambios-al-repositorio-remoto">Envíar cambios al repositorio remoto</h3>
-<ol start="8">
-<li>Sube los cambios al repositorio remoto<br />
-<strong>No olvides el parámetro -u</strong></li>
+<ol start="12">
+<li>Edita el fichero README.md</li>
+<li>Vuelve a añadir el archivo al staging area y confirma los cambios
+<strong>Utiliza un solo comando</strong></li>
+<li>Sube los cambios al repositorio remoto</li>
 <li>Entra en tu repositorio remoto de GitHub y comprueba que se hayan subido los cambios</li>
-</ol>
-<h2 id="mostrar-el-historial-del-repositorio-remoto">Mostrar el historial del repositorio remoto</h2>
-<ol start="10">
 <li>Desde tu repositorio de GitHub muestra el historial de commits</li>
-</ol>
-<h3 id="borrar-los-repositorios">Borrar los repositorios</h3>
-<ol start="11">
-<li>Desde GitHub entra en los ajustes de tu repositorio remoto y bórralo</li>
-<li>Borra la carpeta de tu repositorio local (puedes utilizar el explorador o el terminal)<br />
-<code>rm -Rf repo2&lt;tunombre&gt;</code></li>
 </ol>
 
 
